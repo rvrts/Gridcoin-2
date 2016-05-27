@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Gridcoin.BlockExplorerApiClient.Rest
+namespace Gridcoin.BlockExplorer.Rest
 {
     public interface IRestQueryFilter
     {

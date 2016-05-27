@@ -1,14 +1,17 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Gridcoin.BlockExplorerApiClient.Rest
+namespace Gridcoin.BlockExplorer.Rest
 {
     public interface IRestClient
     {
-        String ExecuteQuery(IRestQuery query);
-        Task<String> ExecuteQueryAsync(IRestQuery query);
+        IRestResponse Execute(IRestRequest request);
+        Task<IRestResponse> ExecuteAsync(IRestRequest request);
+    }
 
-        byte[] GetResource(Uri uri);
-        Task<byte[]> GetResourceAsync(Uri uri);
+    public interface IRestResponse
+    {
+        IRestRequest Request { get; }
+        Object Value { get; }
     }
 }

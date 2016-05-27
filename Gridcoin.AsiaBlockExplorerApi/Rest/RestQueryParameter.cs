@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Gridcoin.BlockExplorerApiClient.Rest
+namespace Gridcoin.BlockExplorer.Rest
 {
     public class RestQueryParameter : IRestQueryParameter
     {

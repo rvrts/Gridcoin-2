@@ -1,9 +1,9 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Gridcoin.BlockExplorerApiClient.JsonEntities
+namespace Gridcoin.BlockExplorer.Web.Asia.Rest.Entities
 {
-    public class Difficulty : IDifficulty
+    public class AsiaDifficulty : IAsiaDifficulty
     {
         [JsonProperty("proof-of-work")]
         public Decimal ProofOfWork { get; set; }

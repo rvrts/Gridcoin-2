@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gridcoin.BlockExplorerApiClient", "Gridcoin.AsiaBlockExplorerApi\Gridcoin.BlockExplorerApiClient.csproj", "{A09AEFA5-D17C-4B7E-B658-CEF7B80D2F56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gridcoin.BlockExplorer", "Gridcoin.AsiaBlockExplorerApi\Gridcoin.BlockExplorer.csproj", "{A09AEFA5-D17C-4B7E-B658-CEF7B80D2F56}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F5585725-9B1E-4F11-8D3A-EEB1DD4B4B6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gridcoin.BlockExplorerApiClient.Tests", "Gridcoin.BlockExplorerApiClient.Tests\Gridcoin.BlockExplorerApiClient.Tests.csproj", "{FC756F49-74A4-478E-9126-BFE6C81789DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gridcoin.BlockExplorer.Tests", "Gridcoin.BlockExplorerApiClient.Tests\Gridcoin.BlockExplorer.Tests.csproj", "{FC756F49-74A4-478E-9126-BFE6C81789DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

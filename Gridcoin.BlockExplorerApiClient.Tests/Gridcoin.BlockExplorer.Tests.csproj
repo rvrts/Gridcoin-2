@@ -80,12 +80,13 @@
   </Choose>
   <ItemGroup>
     <Compile Include="AsiaBlockExplorer.Tests.cs" />
+    <Compile Include="BlockExplorer.Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gridcoin.AsiaBlockExplorerApi\Gridcoin.BlockExplorerApiClient.csproj">
+    <ProjectReference Include="..\Gridcoin.AsiaBlockExplorerApi\Gridcoin.BlockExplorer.csproj">
       <Project>{a09aefa5-d17c-4b7e-b658-cef7b80d2f56}</Project>
-      <Name>Gridcoin.BlockExplorerApiClient</Name>
+      <Name>Gridcoin.BlockExplorer</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

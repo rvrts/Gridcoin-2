@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Gridcoin.BlockExplorerApiClient.Rest
+namespace Gridcoin.BlockExplorer.Rest
 {
     public class RestQueryFilter : IRestQueryFilter
     {
@@ -37,12 +37,5 @@ namespace Gridcoin.BlockExplorerApiClient.Rest
 
             return result;
         }
-
-        public static IRestQueryFilter Cards => new RestQueryFilter("cards");
-        public static IRestQueryFilter CardBacks => new RestQueryFilter("cardback");
-        public static IRestQueryFilter GameInfo => new RestQueryFilter("info");
-
-        public static IRestQueryFilter CardId => new RestQueryFilter("card id", "0");
-        public static IRestQueryFilter CardClass => new RestQueryFilter("card class", "0");
     }
 }
